@@ -1,0 +1,28 @@
+export default {
+    name:'user',
+    title:'User',
+    type:'document',
+    fields:[
+        {
+            name:'image',
+            title:'Image',
+            type:'image'
+        },{
+            name:'name',
+            title:'Name',
+            type:'string'
+        },{
+            name:'emailId',
+            title:'EmailId',
+            type:'string'
+        },{
+            name:'password',
+            title:'Password',
+            type:'string'
+        },{
+            name:'totalSales',
+            title:'TotalSales',
+            type:'number'
+        }
+    ]
+}
